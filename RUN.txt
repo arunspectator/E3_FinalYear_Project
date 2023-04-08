@@ -1,0 +1,6 @@
+Step 1: Open anaconda prompt
+Step 2: locate the project folder
+Step 3: activate the virtual environment by following command.
+	conda activate yolov7-cpu
+Step 4: type the command--replace the path for inputs
+	python run.py --video "C:/Users/aruns/OneDrive/Desktop/Two-Wheeler Vehicle Traffic Violations Detection M1/m3/data/video/3idiots.mp4" --output ./3idiots.mp4 
