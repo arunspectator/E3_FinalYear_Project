@@ -1,0 +1,21 @@
+name: yolov7-cpu
+
+dependencies:
+
+  - pip
+  - matplotlib
+  - opencv
+  - pip:
+    - opencv-python
+    - lxml
+    - tqdm
+    - tensorflow
+    - absl-py
+    - easydict
+    - pillow
+    - shapely
+    - pandas
+    - scipy
+    - scikit-learn
+
+    
