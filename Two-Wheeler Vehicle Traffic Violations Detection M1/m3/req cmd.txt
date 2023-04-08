@@ -1,0 +1,13 @@
+python save_model.py --weights "C:/Users/aruns/OneDrive/Desktop/Two-Wheeler Vehicle Traffic Violations Detection M1/m3/data/R_M_v4_CL.weights" --output "C:/Users/aruns/OneDrive/Desktop/Two-Wheeler Vehicle Traffic Violations Detection M1/m3/checkpoints/yolov4-416_L4" --classes "C:/Users/aruns/OneDrive/Desktop/Two-Wheeler Vehicle Traffic Violations Detection M1/m3/data/classes/R_M.names"
+python save_model.py --weights "C:/Users/aruns/OneDrive/Desktop/Two-Wheeler Vehicle Traffic Violations Detection M1/m3/data/H_NH_v4_nonCL.weights" --output "C:/Users/aruns/OneDrive/Desktop/Two-Wheeler Vehicle Traffic Violations Detection M1/m3/checkpoints/yolov4-416-FG" --classes "C:/Users/aruns/OneDrive/Desktop/Two-Wheeler Vehicle Traffic Violations Detection M1/m3/data/classes/H_NH.names"
+
+to run project
+conda env create -f conda-cpu.yml
+
+
+conda activate yolov4-cpu
+conda activate yolov7-cpu
+
+
+python run.py --video "C:/Users/aruns/OneDrive/Desktop/Two-Wheeler Vehicle Traffic Violations Detection M1/m3/data/video/3idiots.mp4" --output ./3idiots.mp4 
+
